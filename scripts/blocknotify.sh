@@ -12,7 +12,7 @@ import time
 
 start = time.time()
 
-parser = argparse.ArgumentParser(description='Send notification to Stratum instance about new bitcoin block.')
+parser = argparse.ArgumentParser(description='Send notification to Stratum instance about new dogecoin block.')
 parser.add_argument('--password', dest='password', type=str, help='use admin password from Stratum server config')
 parser.add_argument('--host', dest='host', type=str, default='localhost', help='hostname of Stratum mining instance')
 parser.add_argument('--port', dest='port', type=int, default=3333, help='port of Stratum mining instance')
